@@ -1,0 +1,51 @@
+.container{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-image: url('../../public/image/Frame\ 19.png');
+    padding: 70px 70px;
+    display: flex;
+    gap:127px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:85px;
+    height: 85px;
+    border-radius: 100%;
+    background:var(--opacity-color) ;
+    position: absolute;
+    top:80%;
+    left: auto;
+    right: auto;
+}
+.button{
+    background: var(--ackcent-color-1);
+    width:65px;
+    height: 65px;
+    border-radius: 100%;
+    border: none;
+
+}
+.button:hover{
+    background:var(--ackcent-color-2);
+}
+.title{
+    color: var(--text-color);
+    font-family: var(--Font);
+    font-weight: bold;
+    font-size: 64px;
+    width: 607px;
+}
+.text{
+    color: var(--text-color);
+    font-family: var(--Font); 
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 50px;
+    width: 547px;
+}

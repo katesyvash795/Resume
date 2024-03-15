@@ -1,8 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import '~modern-normalize/modern-normalize.css';
 
 body{
+
   width: 100%;
+background-color: var(--main-color);
   font-family: var(--Font);
 }
 
@@ -61,9 +64,11 @@ body.modal-open {
 /* Root styles */
 
 :root {
+  --text-color:white;
 --Font:"Noto Sans", sans-serif;
 --main-color:#02123A;
 --ackcent-color-1:#FF4BAC;
+--opacity-color: rgba(140, 43, 95, 0.5);
 --ackcent-color-2:#8C2B5F;
 --header-color:#011037;
 --project-color:#F02090;
