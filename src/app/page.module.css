@@ -1,0 +1,6 @@
+.container{
+    background: linear-gradient(to right, rgba(140, 43, 95, 1) ,rgba(2, 14, 43, 1));
+    width:1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
