@@ -3,7 +3,6 @@
     font-size: 40px;
     font-weight: 700;
 color:palevioletred;
-padding:30px;
 }
 .syvash{
     color:var(--ackcent-color-1);
@@ -11,8 +10,7 @@ padding:30px;
 .container{
     display: flex;
     align-items: center;
-    justify-content:center;
-    gap: 113px;
+    justify-content:space-around;
     border-radius: 12px;
     background-color: var(--main-color);
     box-shadow: 0 0 4px rgb(0,0,0,0);
@@ -21,6 +19,7 @@ padding:30px;
 .list{
     display: flex;
     gap:25px;
+    padding: 0;
 }
 .link{
     color: #A7A7A7;
@@ -36,7 +35,6 @@ padding:30px;
 }
 .button{
 gap: 10px;
-    margin: 30px;
     align-items: center;
     justify-content: center;
     background: none;
