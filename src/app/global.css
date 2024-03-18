@@ -3,9 +3,10 @@
 @import '~modern-normalize/modern-normalize.css';
 
 body{
-
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(to right, rgba(140, 43, 95, 1) ,rgba(2, 14, 43, 1));
   width: 100%;
-background-color: var(--main-color);
   font-family: var(--Font);
 }
 

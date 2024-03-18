@@ -1,0 +1,6 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+    padding: 70px;
+}
