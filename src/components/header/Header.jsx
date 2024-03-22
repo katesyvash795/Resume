@@ -13,7 +13,7 @@ return(<div className={styles.container}>
         <a className={styles.link} href='#skills'>Skills</a>
     </li>
     <li className={styles.item}>
-        <a className={styles.link} href='#'>Education</a>
+        <a className={styles.link} href='#education'>Education</a>
     </li>
     <li className={styles.item}>
         <a className={styles.link} href='#'>Projects</a>
@@ -23,7 +23,7 @@ return(<div className={styles.container}>
     </li>
 </ul>
 <div>
-    <a className={styles.button}><span>Dowload CV</span> 
+    <a className={styles.button} href='https://drive.google.com/file/d/1yjkTvFwsK2s6_TlgKkbFQ-CCEqXsqSNi/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
 <SVG/>
 </a>
 </div>
