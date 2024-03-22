@@ -7,10 +7,10 @@ return(<div className={styles.container}>
 <h1 className={styles.title}>KATE <span className={styles.syvash}>SYVASH</span></h1>
 <ul className={styles.list}>
     <li className={styles.item}>
-        <a className={styles.link} href='#'>About me</a>
+        <a className={styles.link} href='#About-me'>About me</a>
     </li>
     <li className={styles.item}>
-        <a className={styles.link} href='#'>Skills</a>
+        <a className={styles.link} href='#skills'>Skills</a>
     </li>
     <li className={styles.item}>
         <a className={styles.link} href='#'>Education</a>
@@ -23,9 +23,9 @@ return(<div className={styles.container}>
     </li>
 </ul>
 <div>
-    <button className={styles.button}><span>Dowload CV</span> 
+    <a className={styles.button}><span>Dowload CV</span> 
 <SVG/>
-</button>
+</a>
 </div>
 </div>)
 

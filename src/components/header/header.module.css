@@ -11,8 +11,8 @@ color:palevioletred;
     display: flex;
     align-items: center;
     justify-content:space-around;
-    border-radius: 12px;
-    background-color: var(--main-color);
+    border-bottom: 12px;
+    background-color: var(--header-color);
     box-shadow: 0 0 4px rgb(0,0,0,0);
     height: 92px;
 }
