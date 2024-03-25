@@ -4,7 +4,7 @@ import SVG from './svg';
 
 export default function Header(){
 return(<div className={styles.container}>
-<h1 className={styles.title}>KATE <span className={styles.syvash}>SYVASH</span></h1>
+<a className={styles.title} href="#home">KATE <span className={styles.syvash}>SYVASH</span></a>
 <ul className={styles.list}>
     <li className={styles.item}>
         <a className={styles.link} href='#About-me'>About me</a>

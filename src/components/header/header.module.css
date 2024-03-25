@@ -8,11 +8,16 @@ color:palevioletred;
     color:var(--ackcent-color-1);
 }
 .container{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    bottom: 100%;
+    width: 1280px;
     display: flex;
     align-items: center;
     justify-content:space-around;
     border-bottom: 12px;
-    background-color: var(--header-color);
+    background-color: #02184f;
     box-shadow: 0 0 4px rgb(0,0,0,0);
     height: 92px;
 }

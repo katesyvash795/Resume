@@ -7,6 +7,7 @@ import Scroll from "@/components/skroll/Skrol";
 import Education from "@/components/education/Education";
 import Projects from "@/components/project/Projects";
 import Contacts from "@/components/contacts/Contacts";
+import Footer from "@/components/footer/Footer";
 
 export default function HomePage (){
     return(< div className={styles.HomePage}>
@@ -19,6 +20,7 @@ export default function HomePage (){
     <Education/>
     {/* <Projects/> */}
     <Contacts/>
+    <Footer/>
     </div>
     </div>)
 }

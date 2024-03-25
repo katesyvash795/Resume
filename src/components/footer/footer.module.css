@@ -1,0 +1,35 @@
+@keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  .pulsatingimage {
+    animation: pulse 1.5s infinite;
+  }
+
+
+/*contetnt css*/
+
+.container{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-bottom: 12px;
+    background-color: #011037;
+    box-shadow: 0 0 4px rgb(0,0,0,0);
+    height: 92px;
+}
+  .text{
+    color: var(--ackcent-color-1);
+    font-family: var(--Font);
+    font-weight: 400;
+    font-size: 20px;
+  }

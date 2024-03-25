@@ -2,7 +2,7 @@ import styles from './title.module.css';
 import Image from 'next/image';
 import img from "../../public/image/photo_2024-03-14_19-02-31 1.png";
 export default function Title(){
-return(<div className={styles.container}>
+return(<div className={styles.container} id='home'>
 <div className={styles.textContainer}>
     
     <h1 className={styles.title}>Hi! I'm a Full Stack developer!</h1>
