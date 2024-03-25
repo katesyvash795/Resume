@@ -1,0 +1,30 @@
+.containerImg{
+    width: 1280px;
+    height: 1100px;
+    background-image: url("../../public/image/Frame\ 24.png");
+}
+.title {
+    color: var(--text-color);
+    font-family: var(--Font);
+    font-weight: 400;
+    font-size: 64px;
+    width: 607px;
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
