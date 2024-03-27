@@ -33,7 +33,7 @@ export default function ProjectPage() {
 
   return (
     <div className={styles.container}>
-        <Header/>
+        <Header showNavigation={false} />
       <Project project={project}/>
       <Footer/>
     </div>

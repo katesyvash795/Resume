@@ -9,9 +9,9 @@ import Resume from '../../public/image/resume.png';
 /*mobileimg*/
 import WatchshopMobile from '../../public/image/iMockup - Google Pixel 8 Pro.png';
 import WebstudioMobile from '../../public/image/iMockup - Google Pixel 8 Pro3.png';
-import BokMob from '../../public/image/iMockup - Google Pixel 8 Pro1.png';
-import WaterMob from '../../public/image/iMockup - Google Pixel 8 Pro2.png';
-
+import BokMob from '../../public/image/iMockup - Google Pixel 8 Pro2.png';
+import WaterMob from '../../public/image/iMockup - Google Pixel 8 Pro1.png';
+import ResumeMob from '../../public/image/iMockup - Google Pixel 8 Pro4.png';
 
 
 export const projects={
@@ -41,7 +41,8 @@ phoneimg:[
     WebstudioMobile,
     WatchshopMobile,
 BokMob,
-WaterMob
+WaterMob,
+ResumeMob
 ],
 subscription:[
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
