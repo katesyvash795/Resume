@@ -22,8 +22,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    border-bottom: 12px;
-    background-color: #011037;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #02184f;
     box-shadow: 0 0 4px rgb(0,0,0,0);
     height: 92px;
 }

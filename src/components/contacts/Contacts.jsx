@@ -19,7 +19,7 @@ export default function Contacts() {
             />{" "}
 <div className={styles.phonelink}>
                 <a href="tel:+380952416795" className={styles.link}>
-                  +38(095)-24-16-795 - MTS
+                  +38(095)-24-16-795 - Vodafone
                 </a>
                 <a href="tel:+380972079519" className={styles.link}>
                   +38(097)-207-95-19 - Kyivstar

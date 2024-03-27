@@ -1,0 +1,25 @@
+
+.swiper {
+    width: 90%;
+    height: 40%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(13, 80, 180, 0.25);
+    /* Center slide text vertically */
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width:10px;
+    height: 10px;
+  }

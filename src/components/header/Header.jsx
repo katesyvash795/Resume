@@ -16,7 +16,7 @@ return(<div className={styles.container}>
         <a className={styles.link} href='#education'>Education</a>
     </li>
     <li className={styles.item}>
-        <a className={styles.link} href='#'>Projects</a>
+        <a className={styles.link} href='#projects'>Projects</a>
     </li>
     <li className={styles.item}>
         <a className={styles.link} href='#contacts'>Contact me</a>

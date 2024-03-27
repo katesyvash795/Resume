@@ -3,13 +3,15 @@
 @import '~modern-normalize/modern-normalize.css';
 
 body{
+  background-image: linear-gradient(to right bottom, #8c2b5f, #76265d, #5f225a, #471e54, #301a4c, #301a4c, #301a4c, #301a4c, #471e54, #5f225a, #76265d, #8c2b5f);
   background-size: cover;
   background-repeat: no-repeat;
-  background: #061129 ;
+  /* background: #061129 ; */
   width: 100%;
   font-family: var(--Font);
-}
+  background-position: top, bottom;
 
+}
 h1,
 h2,
 h3,
