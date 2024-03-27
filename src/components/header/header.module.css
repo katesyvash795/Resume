@@ -1,9 +1,10 @@
-.title{
+/* .title{
     font-family: var(--Font);
     font-size: 40px;
     font-weight: 700;
 color:palevioletred;
-}
+padding-left: 40px;
+} */
 .syvash{
     color:var(--ackcent-color-1);
 }
@@ -15,7 +16,7 @@ color:palevioletred;
     width: 1280px;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    gap:100px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     background-color: #02184f;
@@ -23,6 +24,7 @@ color:palevioletred;
     height: 92px;
 }
 .list{
+margin-left: 430px;
     display: flex;
     gap:25px;
     padding: 0;
@@ -39,7 +41,8 @@ color:palevioletred;
     border-radius: 12px;
     box-shadow: 0 0 40px #8C2B5F;
 }
-.button{
+/* .button{
+    margin-right: 40px;
 gap: 10px;
     align-items: center;
     justify-content: center;
@@ -51,7 +54,39 @@ gap: 10px;
     font-weight: 800;
     display: flex;
     padding: 15px;
-}
+} */
 .button:hover{
   background:var(--ackcent-color-2) ;
+}
+
+
+.title {
+    font-family: var(--Font);
+    font-size: 40px;
+    font-weight: 700;
+    color: palevioletred;
+    padding-left: 40px;
+    position: absolute;
+    left: 20px; /* Положение слева от края контейнера */
+    top: 50%; /* Расположение по вертикали по центру */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+}
+
+.button {
+    margin-right: 40px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 12px;
+    border: 2px solid var(--ackcent-color-2);
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    right: 20px; /* Положение справа от края контейнера */
+    top: 50%; /* Расположение по вертикали по центру */
+    transform: translateY(-50%); /* Центрирование по вертикали */
 }

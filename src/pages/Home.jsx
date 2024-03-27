@@ -20,8 +20,8 @@ export default function HomePage (){
     <div className={styles.section}>
     <About/>
     <Skills/>
-    <Projects/>
-    <Education/>
+ <Education/>
+       <Projects/>
     <Contacts/>
     <Footer/>
     </div>

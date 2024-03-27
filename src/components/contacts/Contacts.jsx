@@ -60,7 +60,7 @@ export default function Contacts() {
               width={43}
               height={43}
             />{" "}
-            <a href="https://github.com/katesyvash795" className={styles.link}>
+            <a href="https://github.com/katesyvash795"  target="_blank" rel="noopener noreferrer" className={styles.link}>
               GitHub
             </a>
           </li>
@@ -73,7 +73,7 @@ export default function Contacts() {
               height={43}
             />{" "}
             <a
-              href="https://www.linkedin.com/in/kate-syvash/"
+              href="https://www.linkedin.com/in/kate-syvash/" target="_blank" rel="noopener noreferrer"
               className={styles.link}
             >
               Linkedin
@@ -87,7 +87,7 @@ export default function Contacts() {
               width={43}
               height={43}
             />{" "}
-            <a href="https://t.me/ekaterinakatrinakate" className={styles.link}>
+            <a href="https://t.me/ekaterinakatrinakate"  target="_blank" rel="noopener noreferrer" className={styles.link}>
               Telegram
             </a>
           </li>

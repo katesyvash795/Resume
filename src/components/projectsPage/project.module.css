@@ -1,5 +1,7 @@
 .container{
-    padding-top:100px;
+    padding-top:150px;
+}
+.titlecontainer{
     display: flex;
     gap:30px;
     align-items: center;
@@ -24,4 +26,47 @@ border:none;
     font-weight: 400;
     font-size: 64px;
     width: 607px;
+}
+.linkcontainer{
+    display: flex;
+    width:1200px;
+    align-items: center;
+}
+.divlink{
+    margin-left: auto;
+}
+.link{
+    font-family: var(--Font);
+font-weight: 200;
+font-size: 20px;
+    color:var(--ackcent-color-1)
+}
+.img{
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+.subscription{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 1100px;
+    color: var(--text-color);
+    font-family: var(--Font);
+    font-weight: 200;
+    font-size: 26px;
+}
+.phone{
+margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.othersubscription{
+
+    color: var(--text-color);
+    font-family: var(--Font);
+    font-weight: 200;
+    font-size: 26px;
 }
