@@ -24,7 +24,7 @@ return(<div className={styles.container}>
 </ul>
 )}
 <div>
-    <a className={styles.button} href='https://drive.google.com/file/d/1yjkTvFwsK2s6_TlgKkbFQ-CCEqXsqSNi/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
+    <a className={styles.button} href='https://drive.google.com/file/d/1em3jx5bdUar3JB5SA79gMjK0a4zIlu5p/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
 <SVG/>
 </a>
 </div>

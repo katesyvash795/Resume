@@ -45,3 +45,23 @@
     margin-top: 50px;
     width: 547px;
 }
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--ackcent-color-2);
+    color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .photoContainer {
+    position: relative;
+    display: inline-block;
+  }
+  .photoContainer:hover .caption {
+    opacity: 1;
+  }
