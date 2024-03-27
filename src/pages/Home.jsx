@@ -1,3 +1,6 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
 import Title from "../components/title/Title";
 import Header from "../components/header/Header";
 import About from "@/components/about/About";
@@ -5,9 +8,9 @@ import About from "@/components/about/About";
 import Skills from "@/components/skills/Skills";
 import Scroll from "@/components/skroll/Skrol";
 import Education from "@/components/education/Education";
-import Projects from "@/components/project/Projects";
 import Contacts from "@/components/contacts/Contacts";
 import Footer from "@/components/footer/Footer";
+import Projects from "@/components/project/Projects";
 
 export default function HomePage (){
     return(< div className={styles.HomePage}>
@@ -17,8 +20,8 @@ export default function HomePage (){
     <div className={styles.section}>
     <About/>
     <Skills/>
+    <Projects/>
     <Education/>
-    {/* <Projects/> */}
     <Contacts/>
     <Footer/>
     </div>
