@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Project from '@/components/projectsPage/Project';
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
+import ScrollToTop from '@/components/skroll/Skrol';
 
 export default function ProjectPage() {
   const router = useRouter();
@@ -33,6 +34,7 @@ export default function ProjectPage() {
 
   return (
     <div className={styles.container}>
+         <ScrollToTop/>
         <Header showNavigation={false} />
       <Project project={project}/>
       <Footer/>

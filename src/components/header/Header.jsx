@@ -1,9 +1,14 @@
+'use client'
 import styles from './header.module.css';
 import SVG from './svg';
+import { useRouter } from 'next/router';
 
 export default function Header({ showNavigation = true }){
+;
+
+
 return(<div className={styles.container}>
-<a className={styles.title} href="#home">KATE <span className={styles.syvash}>SYVASH</span></a>
+<a className={styles.title}>KATE <span className={styles.syvash}>SYVASH</span></a>
 {showNavigation && (
 <ul className={styles.list}>
     <li className={styles.item}>

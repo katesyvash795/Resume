@@ -32,7 +32,7 @@ export default function Projects(){
         return(
 <SwiperSlide  key={index} className={styles.swippercontainer}>
 
-                <Image src={projects["globalimg"][index-1]} alt={projects["title"][index - 1]} width={300} height={200}/>
+                <Image src={projects["globalimg"][index-1]} alt={projects["title"][index - 1]} width={300} height={200}  priority loading="eager"/>
      <div className={styles.textcontainer}>
                     
     <div className={styles.linkcontainer}>
