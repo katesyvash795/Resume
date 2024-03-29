@@ -1,4 +1,5 @@
 'use client';
+import React,{useState} from 'react';
 import { useRouter } from 'next/navigation'
 import styles from './project.module.css';
 import Image from 'next/image';
@@ -13,11 +14,27 @@ import 'swiper/css/pagination';
 import './swiper.css';
 
 export default function Projects(){
+  const [slidesPerView, setSlidesPerView] = useState(3);
+
+  const handleResize = () => {
+    if (window.innerWidth >= 768 && window.innerWidth < 1200) {
+      setSlidesPerView(2);
+    } else {
+      setSlidesPerView(3);
+    }
+  };
+  useState(() => {
+    handleResize(); // Initial check
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
     const router = useRouter()
     return(<div className={styles.container} id='projects'>
     <h1 className={styles.title}>PROJECTS</h1>       
      <Swiper
-        slidesPerView={3}
+        slidesPerView={slidesPerView}
         spaceBetween={30}
         pagination={{
           clickable: true,

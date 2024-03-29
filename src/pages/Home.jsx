@@ -15,15 +15,16 @@ import Projects from "@/components/project/Projects";
 export default function HomePage (){
     return(< div className={styles.HomePage}>
     <Scroll/>
-    <Header/>    
-    <Title/>
+    <Header/>
+    <Title/>      
     <div className={styles.section}>
-    <About/>
+    <About/> 
     <Skills/>
- <Education/>
-       <Projects/>
+    <Projects/> 
+    <Education/>    
     <Contacts/>
+    </div>   
     <Footer/>
-    </div>
+  
     </div>)
 }

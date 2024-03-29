@@ -17,6 +17,7 @@ export default function Skills (){
                         alt={skills["title"][index - 1]}
                         width={300}
                         height={97}
+                        className={styles.img}
                       />
                     </>
                 </div>);

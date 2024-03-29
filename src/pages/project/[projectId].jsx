@@ -35,7 +35,7 @@ export default function ProjectPage() {
   return (
     <div className={styles.container}>
          <ScrollToTop/>
-        <Header showNavigation={false} />
+        <Header showNavigation={false} showburger={false} />
       <Project project={project}/>
       <Footer/>
     </div>
