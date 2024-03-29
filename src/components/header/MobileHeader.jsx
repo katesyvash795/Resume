@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import SVG from './svg';
 
 export default function MobileHeader(){
-    const [isMenuOpen, setIsMenuOpen] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
@@ -20,24 +20,31 @@ export default function MobileHeader(){
 </svg>
 </button>
         {isMenuOpen && (
-            <ul className={styles.moblist}>
-              <li className={styles.mobitem}>
-                <a className={styles.moblink} href='#About-me' onClick={closeMenu}>About me</a>
-              </li>
-              <li className={styles.mobitem}>
-                <a className={styles.moblink} href='#skills'onClick={closeMenu}>Skills</a>
-              </li>
-              <li className={styles.mobitem}>
-                <a className={styles.moblink} href='#education' onClick={closeMenu}>Education</a>
-              </li>
-              <li className={styles.mobitem}>
-                <a className={styles.moblink} href='#projects' onClick={closeMenu}>Projects</a>
-              </li>
-              <li className={styles.mobitem}>
-                <a className={styles.moblink} href='#contacts' onClick={closeMenu}>Contact me</a>
-              </li>
-            </ul>
+      <>
+              <ul className={styles.moblist}>
+                <li className={styles.mobitem}>
+                  <a className={styles.moblink} href='#About-me' onClick={closeMenu}>About me</a>
+                </li>
+                <li className={styles.mobitem}>
+                  <a className={styles.moblink} href='#skills'onClick={closeMenu}>Skills</a>
+                </li>
+                <li className={styles.mobitem}>
+                  <a className={styles.moblink} href='#education' onClick={closeMenu}>Education</a>
+                </li>
+                <li className={styles.mobitem}>
+                  <a className={styles.moblink} href='#projects' onClick={closeMenu}>Projects</a>
+                </li>
+                <li className={styles.mobitem}>
+                  <a className={styles.moblink} href='#contacts' onClick={closeMenu}>Contact me</a>
+                </li>
+                <li className={styles.mobitem}>
+                <a className={styles.mobbutton} href='https://drive.google.com/file/d/1em3jx5bdUar3JB5SA79gMjK0a4zIlu5p/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
+      <SVG/>
+      </a>
+                </li>
+              </ul>
 
+      </>
           )}        
     </div>)
 }

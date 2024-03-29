@@ -20,11 +20,18 @@ export default function HomePage (){
     <div className={styles.section}>
     <About/> 
     <Skills/>
-    <Projects/> 
-    <Education/>    
-    <Contacts/>
-    </div>   
-    <Footer/>
+    <Projects/>     
+     <Education/>  
+         
+    
   
+    <Contacts/>
+      
+      <Footer/>
+    </div>
+    {/*     
+
+
+   */}
     </div>)
 }
