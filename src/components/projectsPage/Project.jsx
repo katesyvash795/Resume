@@ -23,7 +23,7 @@ import styles from './project.module.css';
  <Image src={project.globalimg} alt={project.title} width={1100} height={600} className={styles.img}  priority loading="eager"/>
  <p className={styles.subscription}>{project.subscription}</p>
  <div className={styles.phone}>
-<Image src={project.phoneimg} alt={project.title} width={500} height={500}  priority loading="eager"/>
+<Image src={project.phoneimg} alt={project.title} width={500} height={500}  priority loading="eager" className={styles.phoneimg}/>
 <p className={styles.othersubscription}>{project.othersubscription}</p>
 
  </div>

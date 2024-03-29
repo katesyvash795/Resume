@@ -1,10 +1,5 @@
-/* .title{
-    font-family: var(--Font);
-    font-size: 40px;
-    font-weight: 700;
-color:palevioletred;
-padding-left: 40px;
-} */
+
+
 .syvash{
     color:var(--ackcent-color-1);
 }
@@ -41,20 +36,7 @@ margin-left: 430px;
     border-radius: 12px;
     box-shadow: 0 0 40px #8C2B5F;
 }
-/* .button{
-    margin-right: 40px;
-gap: 10px;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    border-radius: 12px;
-    border:2px solid var(--ackcent-color-2) ;
-    color: var(--text-color);
-    font-size: 20px;
-    font-weight: 800;
-    display: flex;
-    padding: 15px;
-} */
+
 .button:hover{
   background:var(--ackcent-color-2) ;
 }
@@ -89,4 +71,70 @@ gap: 10px;
     right: 20px; /* Положение справа от края контейнера */
     top: 50%; /* Расположение по вертикали по центру */
     transform: translateY(-50%); /* Центрирование по вертикали */
+}
+.MobileHeader {
+    display: none;
+  }
+.mobcontainer{display: none;}
+/*tablet*/
+@media screen and (min-width:768px ) and (max-width:1280px) {
+    .container{
+        width: 768px;
+    }
+    .burger {
+        background: none;
+        color: var(--white);
+        width:60px;
+        border: none;
+        height: 60px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+      .list{
+        display:none;
+    }
+    /* .container{
+        position: relative;
+    } */
+    .moblist{
+width:300px;
+height:500px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:30px;
+background:#02184f;
+margin: 0;
+padding: 0;
+    }
+    .moblink{
+        color: #A7A7A7;
+        font-family: var(--Font);
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .moblink:hover{
+        color: var(--text-color);
+        background-color: rgba(140, 43, 95, 0.3);
+        border-radius: 12px;
+        box-shadow: 0 0 40px #8C2B5F;
+    }
+    .title{
+        left:30px;
+    }
+    .button{right: 10px;}
+    .MobileHeader {
+        display: block;
+      }
+      .mobcontainer{display: block;
+    width:768px;
+    position: fixed;
+    z-index: 111;
+    top:20px;
+
+}
 }

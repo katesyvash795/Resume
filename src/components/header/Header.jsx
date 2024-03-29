@@ -1,14 +1,17 @@
 'use client'
+import MobileHeader from './MobileHeader';
 import styles from './header.module.css';
-import SVG from './svg';
-import { useRouter } from 'next/router';
+import SVG from './svg';    
+import React, { useState } from 'react';
 
-export default function Header({ showNavigation = true }){
-;
+export default function Header({ showNavigation = true, showburger=true }){
 
+return(<>
 
-return(<div className={styles.container}>
+<div className={styles.container}>
+{showburger && (<MobileHeader className={styles.MobileHeader} />)}
 <a className={styles.title}>KATE <span className={styles.syvash}>SYVASH</span></a>
+
 {showNavigation && (
 <ul className={styles.list}>
     <li className={styles.item}>
@@ -33,7 +36,8 @@ return(<div className={styles.container}>
 <SVG/>
 </a>
 </div>
-</div>)
+</div>
+</>)
 
 
 }

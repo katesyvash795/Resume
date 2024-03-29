@@ -77,3 +77,14 @@ justify-content: space-between;
 .button:hover{
   background:var(--ackcent-color-2) ;
 }
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:1280px) {
+    .container{
+        width:768px;
+        }
+        .title{
+            font-size: 48px;
+            width: 400px;
+        }
+}

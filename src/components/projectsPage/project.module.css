@@ -70,3 +70,28 @@ margin-top: 70px;
     font-weight: 200;
     font-size: 26px;
 }
+
+@media screen  and (min-width:768px ) and (max-width:1280px){
+    .img{
+width:672px;
+height:332px;
+    }
+    .subscription{
+        width: 768px;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 48px;
+        width: 400px;
+    }
+    .othersubscription{
+        font-size: 20px;
+    }
+    .phoneimg{
+        width:365px;
+        height:355px;
+    }
+    .linkcontainer{
+        width: 100%;
+    }
+}
