@@ -1,5 +1,5 @@
 'use client';
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import { useRouter } from 'next/navigation'
 import styles from './project.module.css';
 import Image from 'next/image';
@@ -17,17 +17,28 @@ export default function Projects(){
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const handleResize = () => {
-    if (window.innerWidth >= 768 && window.innerWidth < 1200) {
+    if (typeof window !== 'undefined' && window.innerWidth >= 768 && window.innerWidth < 1200) {
       setSlidesPerView(2);
     } else {
       setSlidesPerView(3);
     }
   };
-  useState(() => {
+
+  useEffect(() => {
     handleResize(); // Initial check
-    window.addEventListener('resize', handleResize);
+
+    const handleWindowResize = () => {
+      handleResize();
+    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleWindowResize);
+    }
+
     return () => {
-      window.removeEventListener('resize', handleResize);
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('resize', handleWindowResize);
+      }
     };
   }, []);
     const router = useRouter()
