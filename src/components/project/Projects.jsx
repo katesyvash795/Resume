@@ -17,11 +17,14 @@ export default function Projects(){
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const handleResize = () => {
-    if (typeof window !== 'undefined' && window.innerWidth >= 768 && window.innerWidth < 1200) {
+    if(typeof window !== 'undefined' && window.innerWidth >= 320 && window.innerWidth < 768){
+      setSlidesPerView(1);
+    }
+    else {if (typeof window !== 'undefined' && window.innerWidth >= 768 && window.innerWidth < 1200) {
       setSlidesPerView(2);
     } else {
       setSlidesPerView(3);
-    }
+    }}
   };
 
   useEffect(() => {
@@ -60,7 +63,7 @@ export default function Projects(){
         return(
 <SwiperSlide  key={index} className={styles.swippercontainer}>
 
-                <Image src={projects["globalimg"][index-1]} alt={projects["title"][index - 1]} width={300} height={200}  priority loading="eager"/>
+                <Image src={projects["globalimg"][index-1]} alt={projects["title"][index - 1]} width={300} height={200}  priority loading="eager" className={styles.img}/>
      <div className={styles.textcontainer}>
                     
     <div className={styles.linkcontainer}>

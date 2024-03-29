@@ -96,9 +96,6 @@ margin-left: 430px;
       .list{
         display:none;
     }
-    /* .container{
-        position: relative;
-    } */
     .moblist{
 width:300px;
 height:500px;
@@ -132,6 +129,83 @@ padding: 0;
       }
       .mobcontainer{display: block;
     width:768px;
+    position: fixed;
+    z-index: 111;
+    top:20px;
+
+}
+.mobbutton{display: none;}
+}
+/*mob*/
+@media screen and (min-width:320px) and (max-width:768px){
+    .container{
+        width: 320px;
+    }
+    .burger {
+        background: none;
+        color: var(--white);
+        width:60px;
+        border: none;
+        height: 60px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+      .list{
+        display:none;
+    }
+    .moblist{
+width:320px;
+height:500px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:30px;
+background:#02184f;
+margin: 0;
+padding: 0;
+    }
+    .moblink{
+        color: #A7A7A7;
+        font-family: var(--Font);
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .moblink:hover{
+        color: var(--text-color);
+        background-color: rgba(140, 43, 95, 0.3);
+        border-radius: 12px;
+        box-shadow: 0 0 40px #8C2B5F;
+    }
+    .button{
+        display: none;
+    }
+    .title{
+        font-size: 32px;
+        left:30px;
+    }
+    .mobbutton{display: block;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 12px;
+    border: 2px solid var(--ackcent-color-2);
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    padding: 15px;
+    }
+    .MobileHeader {
+        display: block;
+      }
+      .mobcontainer{
+        display: block;
+    width:320px;
     position: fixed;
     z-index: 111;
     top:20px;
