@@ -32,7 +32,7 @@ return(<>
         </li>
     </ul>
     <div>
-        <a className={styles.button} href='https://drive.google.com/file/d/1em3jx5bdUar3JB5SA79gMjK0a4zIlu5p/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
+        <a className={styles.button} href='https://drive.google.com/file/d/1eRIvzZpC3VvOKpUrb6ho3cJAZspSZJH2/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
     <SVG/>
     </a>
     </div>
