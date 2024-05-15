@@ -25,11 +25,6 @@ return(<>
             <a className={styles.link} href='#contacts'>Contact</a>
         </li>
     </ul>
-    {/* <div>
-        <a className={styles.button} href='https://drive.google.com/file/d/1em3jx5bdUar3JB5SA79gMjK0a4zIlu5p/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
-    <SVG/>
-    </a>
-    </div> */}
 </>
 )}
 
