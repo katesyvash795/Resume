@@ -17,19 +17,19 @@
 /*contetnt css*/
 
 .container{
-    width: 1280px;
+  border-top: 1px solid black;
+  margin-top: 70px;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    background-color: #02184f;
-    box-shadow: 0 0 4px rgb(0,0,0,0);
-    height: 92px;
+    background-color: var(--main-color);
+    height: 60px;
 }
   .text{
-    color: var(--ackcent-color-1);
+    color: var(--text-color);
+    /* padding: 10px;
+    background-color: var(--ackcent-color-1); */
     font-family: var(--Font);
     font-weight: 400;
     font-size: 20px;

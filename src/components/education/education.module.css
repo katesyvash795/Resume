@@ -1,33 +1,36 @@
+.titlecontainer{
+  height:370px;
+  width: 660px;
+}
 .title {
     color: var(--text-color);
     font-family: var(--Font);
-    font-weight: 400;
-    font-size: 64px;
-    width: 607px;
+    font-weight:bold;
+    font-size: 170px;
   }
   .container {
-    flex-direction: column;
     display: flex;
-    gap:70px;
-width: 1100px;
+    gap:110px;
+width: 100%;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
     overflow: hidden; 
   }
   .educationcontainer{
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    gap: 30px;
   }
   .text{
     font-family: var(--Font);
     color: var(--text-color);
     font-weight: 200;
-    width: 250px;
+    font-size: 32px;
+    width: 532px;
   }
   .textcontainer{
+    gap: 182px;
+    flex-direction: column;
     display: flex;
     justify-content: space-around;
   }
@@ -40,25 +43,25 @@ width: 1100px;
     gap: 10px;
         align-items: center;
         justify-content: center;
-        background: none;
-        border-radius: 12px;
-        border:2px solid var(--ackcent-color-2) ;
-        color: var(--text-color);
+        background: var(--ackcent-color-1);
+        border-radius: 2px;
+        border: none;
+        color: var(--main-color);
         font-size: 14px;
-        font-weight: 300;
+        font-weight: bold;
         width: 162px;
         display: flex;
         padding:  9px 10px;
     }
     .button:hover{
-      background:var(--ackcent-color-2) ;
+      background:var(--hover-color) ;
     }
-    .line {
+    /* .line {
         width: 3px;
         background-color:#64a2ff36;
         border-radius: 12px;
         height: 100px;
-    }
+    } */
     /*tablet*/
     @media screen and (min-width:768px) and (max-width:1280px) {
       .title {

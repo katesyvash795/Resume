@@ -1,24 +1,36 @@
 .container{
-background-image: url('../../public/image/Frame\ 24.png');
-background-repeat:no-repeat ;
-width:1280px;
-height: 1000px;
+width:100%;
 display: flex;
 justify-content: center;
-align-items: flex-start;
+align-items: center;
 flex-direction: column;
 gap: 70px;
 margin-right: auto;
 margin-left: auto;
 }
-.title{
-    color: var(--text-color);
-    padding-left: 60px;
-    font-family: var(--Font);
-    font-weight: 400;
-    font-size: 64px;
-    width: 607px;
+.titlediv{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
 }
+.onetitle{
+
+        color: var(--text-color);
+        font-family: var(--Font);
+        font-weight: 600;
+        font-size: 96px;
+        width: 1300px;
+      }
+
+.title {
+    color: var(--text-color);
+    font-family: var(--Font);
+    font-weight: 900;
+    font-size: 170px;
+    width: 1050px;
+  }
 .swippercontainer{
     display: flex;
     flex-direction: column;
@@ -26,8 +38,8 @@ margin-left: auto;
 .nameproject {
     font-family: var(--Font);
     color: var(--text-color);
-    font-weight: 200;
-    font-size: 20px;
+    font-weight:bold;
+    font-size: 32px;
     text-align: left;
 }
 .text{
@@ -41,11 +53,11 @@ text-align: left;
 .textcontainer{
 display: flex;
 flex-direction: column;
-gap:10px;
-width:300px;
+gap:18px;
+width:431px;
 align-items: center;
 justify-content: center;
-margin-top: 10px;
+margin-top: 18px;
 }
 .link{
     font-family: var(--Font);
@@ -56,28 +68,36 @@ font-size: 12px;
 .linkcontainer{
     display: flex;
     width: 300px;
-justify-content: space-between;
+justify-content: center;
     align-items: center;
 }
 .button{
     gap: 10px;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
     background: none;
-    border-radius: 12px;
-    border:2px solid var(--ackcent-color-2) ;
+    border-radius: 2px;
     color: var(--text-color);
     font-size: 16px;
     font-weight: 300;
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin-left: 60%;
     margin-top: 5px;
 }
 .button:hover{
-  background:var(--ackcent-color-2) ;
+  background:var(--hover-color) ;
+  color: var(--main-color);
+  border:none;
 }
-
+.bottomtext{
+    /* margin-right: auto; */
+    color: var(--text-color);
+    font-family: var(--Font);
+    font-size: 16px;
+    font-weight: 200;
+}
 /*tablet*/
 @media screen and (min-width:768px) and (max-width:1280px) {
     .container{

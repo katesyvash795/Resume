@@ -3,31 +3,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
     overflow: hidden; 
-  }
-
-
-  
-  .textcontainer {
-    z-index: 1; 
   }
   
   .title {
     color: var(--text-color);
     font-family: var(--Font);
-    font-weight: 400;
-    font-size: 64px;
-    width: 607px;
+    font-weight: bold;
+    font-size: 170px;
+    width: 1000px;
+    margin-bottom: 72px;
   }
   
   .text {
     color: var(--text-color);
     font-family: var(--Font);
     font-weight: 200;
-    font-size: 32px;
-    margin-top: 30px;
-    width: 1125px;
+    font-size: 24px;
+    width: 925px;
   }
 
   /*tablet*/

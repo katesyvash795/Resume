@@ -1,9 +1,9 @@
 .title {
     color: var(--text-color);
     font-family: var(--Font);
-    font-weight: 400;
-    font-size: 64px;
-    width: 607px;
+    font-weight: bold;
+    font-size: 170px;
+    width: 1000px;
   }
   .section {
     flex-direction: column;
@@ -17,10 +17,11 @@ width: 1100px;
   }
   .textContainer{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
   }
   .item{
-    gap: 20px;
+    gap: 180px;
      display: flex;
      align-items: center;
 }
