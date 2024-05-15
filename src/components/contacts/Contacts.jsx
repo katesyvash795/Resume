@@ -46,11 +46,10 @@ export default function Contacts() {
               width={43}
               height={43}
             />{" "}
-            <p className={styles.link}>Zaporozhye Ukraine</p>
+            <a className={styles.link} href="https://www.bing.com/maps?q=Zaporizhzhia&satid=id.sid%3Aac174e6f-d880-2ddf-6d6b-dec80d43c841&FORM=KC2MAP&cp=47.85599%7E35.157665&lvl=12.1">Zaporozhye Ukraine</a>
           </li>
 
         </ul> 
-                 {/* <div className={styles.line}></div> */}
         <ul className={styles.list}>
           <li className={styles.item}>
             {" "}
