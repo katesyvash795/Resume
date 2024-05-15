@@ -5,7 +5,7 @@ import Watchshop from '../../public/image/Снимок экрана 2024-03-13 1
 import WebStudio from "../../public/image/image.png";
 import BookShelf from "../../public/image/book.png";
 import WaterTracker from '../../public/image/Снимок экрана 2024-03-27 111848.png';
-import Resume from '../../public/image/resume.png';
+import Resume from '../../public/image/portfolio.png';
 /*mobileimg*/
 import WatchshopMobile from '../../public/image/iMockup - Google Pixel 8 Pro.png';
 import WebstudioMobile from '../../public/image/iMockup - Google Pixel 8 Pro3.png';
@@ -16,7 +16,7 @@ import ResumeMob from '../../public/image/iMockup - Google Pixel 8 Pro4.png';
 
 export const projects={
 id:[1,2,3,4,5],
-title:["WEBSTUDIO","WATCHSOP","BOOKSHELF","WATERTRACKER","RESUME"],
+title:["WEBSTUDIO","WATCHSOP","BOOKSHELF","WATER TRACKER","RESUME"],
 giturl:[
     "https://github.com/katesyvash795/goit-markup-hw-07",
     "https://github.com/katesyvash795/project-group-14-new",

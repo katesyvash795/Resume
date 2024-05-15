@@ -1,15 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import '~modern-normalize/modern-normalize.css';
 
 body{
-  background-image: linear-gradient(to right bottom, #8c2b5f, #76265d, #5f225a, #471e54, #301a4c, #301a4c, #301a4c, #301a4c, #471e54, #5f225a, #76265d, #8c2b5f);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background: #061129 ; */
-  width: 100%;
+ background-color: white;
+  width: 1440px;
   font-family: var(--Font);
   background-position: top, bottom;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 h1,
@@ -32,15 +31,12 @@ header,
 aside {
   display: block;
 }
-.list {
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-ul {
-  list-style: none;
-}
 a {
   color: currentColor;
   text-decoration: none;
@@ -67,12 +63,9 @@ body.modal-open {
 /* Root styles */
 
 :root {
-  --text-color:white;
---Font:"Noto Sans", sans-serif;
---main-color:#02123A;
---ackcent-color-1:#FF4BAC;
---opacity-color: rgba(140, 43, 95, 0.5);
---ackcent-color-2:#8C2B5F;
---header-color:#011037;
---project-color:#F02090;
+  --text-color:black;
+--Font:"Montserrat", sans-serif;
+--main-color:white;
+--ackcent-color-1:#0066FF;
+--hover-color:#042c68;
 }
