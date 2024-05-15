@@ -7,10 +7,10 @@ export default function Skills (){
            <div className={styles.gradientLine}></div>
 
     <h1 className={styles.title}>MY SKILLS</h1>
-    <div className={styles.containerImg}>
+    <div className={styles.marquee}>
     {skills["id"].map((index) => {
               return (
-                <div key={index} >
+                <div key={index}  >
                     <>
                       <Image
                         src={skills["img"][index - 1]}

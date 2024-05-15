@@ -50,7 +50,7 @@ export default function Contacts() {
           </li>
 
         </ul> 
-                 <div className={styles.line}></div>
+                 {/* <div className={styles.line}></div> */}
         <ul className={styles.list}>
           <li className={styles.item}>
             {" "}

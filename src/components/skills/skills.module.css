@@ -1,33 +1,41 @@
 .container {
-    width: 1100px;
+    width: 100%px;
     height: 700px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 70px;
     overflow: hidden; 
   }  
   .background{
-    width: 1280px;
-    height: 700px;
-    background-image: url("../../public/image/Frame\ 22.png");
-  }
+    width: 100%;
 
+  }
+  .marquee {
+  display: flex; gap:10px;
+    animation: marquee 15s infinite linear;
+    font-family: sans-serif;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
   .title {
     color: var(--text-color);
     font-family: var(--Font);
-    font-weight: 400;
-    font-size: 64px;
-    width: 607px;
+    font-weight: bold;
+    font-size: 170px;
+    width: 950px;
   }
-  .containerImg{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap:60px 41px;
-  }
+
   .textcontainer {
     z-index: 1; 
     display: flex;

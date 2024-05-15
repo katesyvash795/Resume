@@ -21,9 +21,9 @@ export default function Projects(){
       setSlidesPerView(1);
     }
     else {if (typeof window !== 'undefined' && window.innerWidth >= 768 && window.innerWidth < 1200) {
-      setSlidesPerView(2);
+      setSlidesPerView(1);
     } else {
-      setSlidesPerView(3);
+      setSlidesPerView(2);
     }}
   };
 
@@ -46,13 +46,18 @@ export default function Projects(){
   }, []);
     const router = useRouter()
     return(<div className={styles.container} id='projects'>
-    <h1 className={styles.title}>PROJECTS</h1>       
+     <div className={styles.titlediv}>
+        <h1 className={styles.onetitle}>MY PROJECT EXPERIENCE</h1>
+      <h1 className={styles.title}>PROJECTS</h1>   
+         
+     </div> 
+     <p className={styles.bottomtext}>Click & Swipe</p>   
      <Swiper
         slidesPerView={slidesPerView}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         modules={[Pagination]}
         className="mySwiper"
       >
@@ -63,17 +68,17 @@ export default function Projects(){
         return(
 <SwiperSlide  key={index} className={styles.swippercontainer}>
 
-                <Image src={projects["globalimg"][index-1]} alt={projects["title"][index - 1]} width={300} height={200}  priority loading="eager" className={styles.img}/>
+                <Image src={projects["globalimg"][index-1]} alt={projects["title"][index - 1]} width={431} height={344}  priority loading="eager" className={styles.img}/>
      <div className={styles.textcontainer}>
                     
     <div className={styles.linkcontainer}>
                         <p className={styles.nameproject}>
                    { [projects["title"][index-1]]}
                         </p>
-    <div>
+    {/* <div>
                             <a href={ [projects["giturl"][index-1]]} className={styles.link} target="_blank" rel="noopener noreferrer"> GITHUB | </a>
                             <a href={ [projects["weburl"][index-1]]} className={styles.link} target="_blank" rel="noopener noreferrer">WEBSITE</a>
-    </div>
+    </div> */}
     </div>
                     <p className={styles.text}>
                     {subscription}
@@ -84,6 +89,6 @@ export default function Projects(){
 
     );})}
           </Swiper>
-    
+ 
     </div>)
 }

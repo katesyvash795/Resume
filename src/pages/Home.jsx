@@ -14,24 +14,19 @@ import Projects from "@/components/project/Projects";
 
 export default function HomePage (){
     return(< div className={styles.HomePage}>
-    <Scroll/>
-    <Header/>
-    <Title/>      
-    <div className={styles.section}>
-    <About/> 
-    <Skills/>
-    <Projects/>     
-     <Education/>  
-         
-    
-  
-    <Contacts/>
-      
-      <Footer/>
-    </div>
-    {/*     
 
-
-   */}
+    <Header/>    
+ <div className={styles.section}> 
+    <Title/>     
+     <About/>     
+     <Education/> 
+<Skills/>    
+<Projects/>   
+<div>
+    <Contacts/> 
+        <Footer/>
+</div>
+    </div> 
+         <Scroll/>  
     </div>)
 }

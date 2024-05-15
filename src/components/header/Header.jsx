@@ -1,7 +1,7 @@
 'use client'
 import MobileHeader from './MobileHeader';
 import styles from './header.module.css';
-import SVG from './svg';    
+import SVG from '../footer/svg';    
 import React, { useState } from 'react';
 
 export default function Header({ showNavigation = true, showburger=true }){
@@ -10,32 +10,26 @@ return(<>
 
 <div className={styles.container}>
 {showburger && (<MobileHeader className={styles.MobileHeader} />)}
-<a className={styles.title}>KATE <span className={styles.syvash}>SYVASH</span></a>
+<a className={styles.title}>portfolio</a>
 
 {showNavigation && (
 <>
     <ul className={styles.list}>
         <li className={styles.item}>
-            <a className={styles.link} href='#About-me'>About me</a>
-        </li>
-        <li className={styles.item}>
-            <a className={styles.link} href='#skills'>Skills</a>
-        </li>
-        <li className={styles.item}>
-            <a className={styles.link} href='#education'>Education</a>
+            <a className={styles.link} href='#About'>About</a>
         </li>
         <li className={styles.item}>
             <a className={styles.link} href='#projects'>Projects</a>
         </li>
         <li className={styles.item}>
-            <a className={styles.link} href='#contacts'>Contact me</a>
+            <a className={styles.link} href='#contacts'>Contact</a>
         </li>
     </ul>
-    <div>
+    {/* <div>
         <a className={styles.button} href='https://drive.google.com/file/d/1em3jx5bdUar3JB5SA79gMjK0a4zIlu5p/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
     <SVG/>
     </a>
-    </div>
+    </div> */}
 </>
 )}
 

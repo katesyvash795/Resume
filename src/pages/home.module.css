@@ -1,9 +1,8 @@
 .section{
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 420px;
 }
 .HomePage{
 position: relative;
-
 }
