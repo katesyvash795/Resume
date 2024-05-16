@@ -1,7 +1,7 @@
 'use client';
 import styles from './header.module.css';
 import React, { useState } from 'react';
-import SVG from '../footer/svg';
+import SVG from '../contacts/svg';
 
 export default function MobileHeader(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,7 +1,7 @@
 'use client'
 import MobileHeader from './MobileHeader';
 import styles from './header.module.css';
-import SVG from '../footer/svg';    
+import SVG from '../contacts/svg';    
 import React, { useState } from 'react';
 
 export default function Header({ showNavigation = true, showburger=true }){
