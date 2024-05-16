@@ -2,7 +2,7 @@ import styles from "./contacts.module.css";
 import Map from "./map/Map";
 import Image from "next/image";
 import { icons } from "./icons/icons";
-
+import SVG from "./svg";
 export default function Contacts() {
   return (
     <div className={styles.section} id="contacts">
@@ -92,6 +92,10 @@ export default function Contacts() {
           </li>
         </ul>
       </div>
+      <div>
+        <a className={styles.button} href='https://drive.google.com/file/d/1em3jx5bdUar3JB5SA79gMjK0a4zIlu5p/view?usp=drivesdk' target="_blank" rel="noopener noreferrer"><span>Dowload CV</span> 
+    </a>
+    </div>
     </div>
   );
 }

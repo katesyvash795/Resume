@@ -3,7 +3,7 @@
    display: none;
 }
 .button:hover{
-    background-color: var(--ackcent-color-1);
+    background-color: var(--hover-color);
 }
 
 .visible {
@@ -13,7 +13,7 @@
     position: fixed;
     top: 75% ;
    left: 80%;
-   background-color:var(--ackcent-color-2);
+   background-color:var(--ackcent-color-1);
    transform: rotate(180deg);
    width:58px;
    height: 58px;

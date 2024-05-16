@@ -1,7 +1,7 @@
 import styles from './footer.module.css'
 import Image from 'next/image';
 import img from '../../public/image/mage_heart-fill.png';
-import SVG from './svg';
+import SVG from '../contacts/svg';
 
 
 export default function Footer (){

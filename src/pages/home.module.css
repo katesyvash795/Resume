@@ -1,8 +1,24 @@
 .section{
     display: flex;
     flex-direction: column;
-    gap: 420px;
+    gap: 300px;
 }
 .HomePage{
 position: relative;
+}
+.button{
+    display: block;
+    border-radius:100% ;
+    border:  none;
+    position: absolute;
+    top: 100px ;
+    right: 100%;
+   background-color:var(--ackcent-color-1);
+   transform: rotate(180deg);
+   width:58px;
+   height: 58px;
+   z-index: 100000000000000000;
+}
+.button:hover{
+    background-color: var(--hover-color);
 }
