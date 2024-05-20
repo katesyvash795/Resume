@@ -2,12 +2,13 @@
 margin-top: 12%;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .title{
 
     color: var(--text-color);
     font-family: var(--Font);
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 48px;
     width: 856px;
     text-align: center;
@@ -61,4 +62,27 @@ font-size: 24px;
         align-items: center;
         justify-content: center;
         margin-top: 60px;
+    }
+    @media screen  and (min-width:320px ) and (max-width:768px){
+        .container{
+            margin-top: 30%;
+        }
+        .text{
+            font-size: 16px;
+                width: 210px;
+            }
+        .title{
+            font-size: 32px;
+            width: 355px;
+        }
+        .textcontainer{
+            gap:20px;
+        }
+    }
+    @media screen  and (min-width:768px ) and (max-width:1280px){
+        .textcontainer{
+            gap:36px;
+        }
+
+
     }
