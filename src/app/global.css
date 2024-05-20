@@ -4,13 +4,14 @@
 
 body{
  background-color: white;
-  width: 1440px;
+  width: 100%;
   font-family: var(--Font);
   background-position: top, bottom;
   margin-left: auto;
   margin-right: auto;
 
 }
+
 h1,
 h2,
 h3,
